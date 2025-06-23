@@ -1,8 +1,6 @@
 @if "%1" EQU "" exit /b 1
 @if "%2" EQU "" exit /b 1
 
-format X: /q /y >NUL 2>&1 || exit /b 1
-
 mkdir X:\logs >NUL 2>&1 || exit /b 1
 mkdir X:\temp >NUL 2>&1 || exit /b 1
 mkdir X:\image >NUL 2>&1 || exit /b 1
